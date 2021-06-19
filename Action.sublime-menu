@@ -1,6 +1,6 @@
 [
     {
-        "caption": "创建分支…",
+        "caption": "创建分支…(Create Branch…)",
         "command": "show_command_palette",
         "args":
         {
@@ -8,7 +8,7 @@
         }
     },
     {
-        "caption": "合并分支…",
+        "caption": "合并分支…(Merge Branch…)",
         "command": "show_command_palette",
         "args":
         {

@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "还原代码块(Revert Hunk)",
+        "command": "revert_diff_hunk"
+    },
+    {
+        "caption": "Cherry Pick 代码块(Cherry Pick Hunk)",
+        "command": "cherrypick_hunk"
+    }
+]

@@ -1,7 +1,8 @@
 [
-    { "command": "cut", "caption": "剪切" },
-    { "command": "copy", "caption": "复制" },
-    { "command": "paste", "caption": "粘贴" },
+	{ "command": "open_context_url", "caption": "打开网址(Open Context Url)"  },
+    { "command": "cut", "caption": "剪切(Cut)" },
+    { "command": "copy", "caption": "复制(Copy)" },
+    { "command": "paste", "caption": "粘贴(Paste)" },
     { "caption": "-" },
-    { "command": "select_all", "caption": "全部选择" }
+    { "command": "select_all", "caption": "全部选择(Select All)" }
 ]

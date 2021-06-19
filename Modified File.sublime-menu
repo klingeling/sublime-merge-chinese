@@ -1,10 +1,10 @@
 [
     {
-        "caption": "暂存",
+        "caption": "暂存(Stage)",
         "command": "stage_file", "args": { "path": "$path" },
     },
     {
-        "caption": "丢弃",
+        "caption": "丢弃(Discard)",
         "command": "discard_file", "args": { "path": "$path" },
     },
 ]

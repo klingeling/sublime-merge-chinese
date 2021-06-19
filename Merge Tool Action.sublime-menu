@@ -1,10 +1,10 @@
 [
     {
-        "caption": "Take Left",
+        "caption": "接受左侧(Take Left)",
         "command": "take_ours",
     },
     {
-        "caption": "Take Right",
+        "caption": "接受右侧(Take Right)",
         "command": "take_theirs",
     },
     { "caption": "-", "id": "end" }

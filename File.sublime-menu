@@ -1,25 +1,25 @@
 [
     {
-        "caption": "文件历史",
+        "caption": "文件历史(File History)",
         "command": "search", "args": { "query": "file:\"$path\"" }
     },
     {
-        "caption": "Blame",
+        "caption": "追责(Blame)",
         "command": "blame", "args": { "path": "$path" }
     },
     { "caption": "-" },
     {
-        "caption": "在编辑器中打开…",
+        "caption": "在编辑器中打开…(Open in Editor…)",
         "command": "open_in_editor",
         "args": { "path": "$working_dir/$path", "line": "$line" }
     },
     {
-        "caption": "打开所在目录…",
+        "caption": "打开所在目录…(Open Containing Folder…)",
         "command": "open_dir",
         "args": { "path": "$working_dir/$path" }
     },
     {
-        "caption": "复制文件路径",
+        "caption": "复制文件路径(Copy File Path)",
         "command": "copy_to_clipboard",
         "args": { "text": "$path" }
     }

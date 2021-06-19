@@ -1,37 +1,37 @@
 [
-    { "command": "checkout_branch", "args": { "branch": "$branch" }, "caption": "创建分支…" },
+    { "command": "checkout_branch", "args": { "branch": "$branch" }, "caption": "检出分支 $branch(Checkout $branch)" },
     {
-        "caption": "合并分支…",
+        "caption": "合并分支…(Merge Branch…)",
         "command": "merge_branch",
         "args": { "branch": "$branch" },
     },
-    { "command": "rebase_branch", "args": { "branch": "$branch", "commit": "$commit" }, "caption": "Rebase '$branch' 分支…" },
-    { "command": "delete_branch", "args": { "ref": "$ref" }, "caption": "删除 '$branch' 分支…" },
+    { "command": "rebase_branch", "args": { "branch": "$branch", "commit": "$commit" }, "caption": "Rebase $branch 分支…(Rebase $branch…)" },
+    { "command": "delete_branch", "args": { "ref": "$ref" }, "caption": "删除 $branch 分支(Delete $branch)" },
     {
         "command": "show_command_palette",
         "args":
         {
             "command": "rename_branch",
             "args": {"branch": "$branch"},
-            "description": "重命名 '$branch' 分支…",
+            "description": "重命名 $branch 分支…(Rename $branch…)",
         }
     },
     {
-        "caption": "复制分支名: '$branch'",
+        "caption": "复制分支名: '$branch'(Copy $branch)",
         "command": "copy_to_clipboard",
         "args": { "text": "$branch" }
     },
-    { "command": "hide_ref", "args": { "ref": "$ref" }, "caption": "隐藏 '$branch' 分支" },
-    { "command": "show_ref", "args": { "ref": "$ref" }, "caption": "显示 '$branch' 分支" },
-    { "command": "hide_all_refs_except", "args": { "ref": "$ref" }, "caption": "隐藏除 '$branch' 之外的所有分支" },
-    { "command": "show_all_refs", "args": { "ref": "$ref" }, "caption": "显示所有隐藏的分支" },
+    { "command": "hide_ref", "args": { "ref": "$ref" }, "caption": "隐藏 '$branch' 分支(Hide '$branch')" },
+    { "command": "show_ref", "args": { "ref": "$ref" }, "caption": "显示 '$branch' 分支(Show '$branch')" },
+    { "command": "hide_all_refs_except", "args": { "ref": "$ref" }, "caption": "隐藏除 '$branch' 之外的所有分支(Hide All Branches Except '$branch')" },
+    { "command": "show_all_refs", "args": { "ref": "$ref" }, "caption": "显示所有隐藏的分支(Show All Hidden Branches)" },
     {
         "command": "show_command_palette",
         "args":
         {
             "command": "set_upstream",
             "args": { "branch": "$branch" },
-            "description": "设置上游…"
+            "description": "设置上游…(Set Upstream…)"
         }
     },
     { "caption": "-" },

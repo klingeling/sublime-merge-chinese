@@ -1,6 +1,6 @@
 [
     {
-        "caption": "Create Branch…",
+        "caption": "创建分支…(Create Branch…)",
         "command": "show_command_palette", "args":
         {
             "command": "create_branch",

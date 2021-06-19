@@ -1,14 +1,14 @@
 [
     {
-        "caption": "取回 Stash",
+        "caption": "恢复并删除暂存(Pop Stash)",
         "command": "pop_stash", "args": {"stash": "$stash"}
     },
     {
-        "caption": "应用 Stash",
+        "caption": "恢复暂存(Apply Stash)",
         "command": "apply_stash", "args": {"stash": "$stash"}
     },
     {
-        "caption": "丢弃 Stash",
+        "caption": "删除暂存(Drop Stash)",
         "command": "drop_stash", "args": {"stash": "$stash"}
     },
     { "caption": "-", "id": "end" }

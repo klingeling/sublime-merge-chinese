@@ -1,5 +1,6 @@
 [
     {
+        "caption": "从 $remote 获取(Fetch from $remote)",
         "command": "show_command_palette",
         "args":
         {
@@ -9,6 +10,7 @@
         },
     },
     {
+        "caption": "删除 $remote(Delete $remote)",
         "description": "Delete $remote",
         "command": "delete_remote",
         "args": {"remote": "$remote"}

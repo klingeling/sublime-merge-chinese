@@ -1,6 +1,6 @@
 [
     {
-        "caption": "Save without Staging",
+        "caption": "不带暂存而保存(Save without Staging)",
         "command": "save_without_staging",
         "args": {}
     },
